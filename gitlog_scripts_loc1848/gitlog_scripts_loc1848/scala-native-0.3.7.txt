@@ -1,0 +1,4 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-native-0.3.7/nativelib/src/main/scala/scala/scalanative/native/CField.scala > CField.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-native-0.3.7/unit-tests/src/test/scala/java/util/jar/JarBytes.scala > JarBytes.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-native-0.3.7/unit-tests/src/test/scala/java/util/FormatterSuite.scala > FormatterSuite.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-native-0.3.7/unit-tests/src/test/scala/java/util/FormatterUSSuite.scala > FormatterUSSuite.txt

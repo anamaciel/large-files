@@ -1,0 +1,7 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- spark-2.3.0/python/pyspark/ml/tests.py > tests.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- spark-2.3.0/core/src/test/scala/org/apache/spark/util/JsonProtocolSuite.scala > JsonProtocolSuite.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- spark-2.3.0/sql/core/src/test/scala/org/apache/spark/sql/SQLQuerySuite.scala > SQLQuerySuite.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- spark-2.3.0/sql/hive-thriftserver/src/gen/java/org/apache/hive/service/cli/thrift/TCLIService.java > TCLIService.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- spark-2.3.0/sql/core/src/test/scala/org/apache/spark/sql/execution/command/DDLSuite.scala > DDLSuite.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- spark-2.3.0/python/pyspark/sql/tests.py > tests.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- spark-2.3.0/core/src/main/scala/org/apache/spark/util/Utils.scala > Utils.txt

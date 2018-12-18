@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- shapeless-shapeless-2.3.3/core/src/test/scala/shapeless/hlist.scala > hlist.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- shapeless-shapeless-2.3.3/core/src/main/scala/shapeless/ops/hlists.scala > hlists.txt

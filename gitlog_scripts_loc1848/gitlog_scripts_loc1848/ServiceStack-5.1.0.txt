@@ -1,0 +1,6 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ServiceStack-5.1.0/tests/Mvc.Core.Tests/wwwroot/lib/jquery/dist/jquery.js > jquery.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ServiceStack-5.1.0/tests/CheckMvc/TypeScript.dtos.js > TypeScript.dtos.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ServiceStack-5.1.0/src/ServiceStack.Api.Swagger/swagger-ui/lib/swagger-client.js > swagger-client.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ServiceStack-5.1.0/src/ServiceStack.Api.Swagger/swagger-ui/swagger-ui.js > swagger-ui.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ServiceStack-5.1.0/src/ServiceStack.Api.Swagger/swagger-ui/lib/shred.bundle.js > shred.bundle.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ServiceStack-5.1.0/src/ServiceStack.Api.OpenApi/swagger-ui/swagger-ui.js > swagger-ui.txt

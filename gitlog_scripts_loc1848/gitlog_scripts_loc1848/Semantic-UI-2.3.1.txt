@@ -1,0 +1,4 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Semantic-UI-2.3.1/src/definitions/modules/dropdown.js > dropdown.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Semantic-UI-2.3.1/dist/components/dropdown.js > dropdown.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Semantic-UI-2.3.1/test/helpers/sinon.js > sinon.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Semantic-UI-2.3.1/dist/semantic.js > semantic.txt

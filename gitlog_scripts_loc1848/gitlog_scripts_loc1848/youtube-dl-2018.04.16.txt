@@ -1,0 +1,5 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- youtube-dl-2018.04.16/youtube_dl/utils.py > utils.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- youtube-dl-2018.04.16/youtube_dl/compat.py > compat.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- youtube-dl-2018.04.16/youtube_dl/extractor/generic.py > generic.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- youtube-dl-2018.04.16/youtube_dl/extractor/common.py > common.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- youtube-dl-2018.04.16/youtube_dl/extractor/youtube.py > youtube.txt

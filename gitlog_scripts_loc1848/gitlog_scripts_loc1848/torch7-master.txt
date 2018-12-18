@@ -1,0 +1,3 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- torch7-master/lib/TH/vector/VSX.c > VSX.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- torch7-master/test/test.lua > test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- torch7-master/lib/TH/generic/THTensorMath.c > THTensorMath.txt

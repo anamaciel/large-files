@@ -1,0 +1,11 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- shumway-master/src/avm2/abc/lazy.ts > lazy.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- shumway-master/examples/inspector/js/classes/dat.gui.js > dat.gui.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- shumway-master/src/avm1/interpreter.ts > interpreter.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- shumway-master/src/avm2/nat.ts > nat.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- shumway-master/test/unit/pass/displayObjectTransform.js > displayObjectTransform.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- shumway-master/src/lib.d.ts > lib.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- shumway-master/src/avm2/natives/xml.ts > xml.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- shumway-master/src/base/utilities.ts > utilities.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- shumway-master/utils/typescript/tsc.js > tsc.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- shumway-master/utils/typescript/lib.d.ts > lib.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- shumway-master/examples/jwplayer/jwplayer.js > jwplayer.txt

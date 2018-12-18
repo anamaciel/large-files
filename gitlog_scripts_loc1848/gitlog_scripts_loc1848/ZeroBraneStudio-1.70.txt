@@ -1,0 +1,5 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ZeroBraneStudio-1.70/api/lua/moai.lua > moai.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ZeroBraneStudio-1.70/api/lua/marmalade.lua > marmalade.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ZeroBraneStudio-1.70/api/lua/love2d.lua > love2d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ZeroBraneStudio-1.70/api/lua/corona.lua > corona.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ZeroBraneStudio-1.70/api/lua/gideros.lua > gideros.txt

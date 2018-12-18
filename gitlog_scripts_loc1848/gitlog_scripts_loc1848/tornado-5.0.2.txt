@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tornado-5.0.2/tornado/test/web_test.py > web_test.txt

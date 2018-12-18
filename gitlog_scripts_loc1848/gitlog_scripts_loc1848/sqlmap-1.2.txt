@@ -1,0 +1,5 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlmap-1.2/lib/core/option.py > option.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlmap-1.2/thirdparty/bottle/bottle.py > bottle.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlmap-1.2/thirdparty/xdot/xdot.py > xdot.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlmap-1.2/lib/core/common.py > common.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlmap-1.2/thirdparty/gprof2dot/gprof2dot.py > gprof2dot.txt

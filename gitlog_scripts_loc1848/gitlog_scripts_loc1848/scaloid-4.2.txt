@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scaloid-4.2/scaloid-common/src/main/scala/org/scaloid/common/widget.scala > widget.txt

@@ -1,0 +1,7 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tesseract-4.0.0-beta.1/textord/colpartition.cpp > colpartition.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tesseract-4.0.0-beta.1/api/baseapi.cpp > baseapi.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tesseract-4.0.0-beta.1/opencl/openclwrapper.cpp > openclwrapper.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tesseract-4.0.0-beta.1/ccmain/paragraphs.cpp > paragraphs.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tesseract-4.0.0-beta.1/ccutil/tesscallback.h > tesscallback.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tesseract-4.0.0-beta.1/textord/makerow.cpp > makerow.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tesseract-4.0.0-beta.1/ccutil/universalambigs.cpp > universalambigs.txt

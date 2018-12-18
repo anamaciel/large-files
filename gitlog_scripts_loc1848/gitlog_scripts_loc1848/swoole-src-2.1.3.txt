@@ -1,0 +1,6 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- swoole-src-2.1.3/swoole_redis_coro.c > swoole_redis_coro.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- swoole-src-2.1.3/swoole_http_server.c > swoole_http_server.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- swoole-src-2.1.3/swoole_client.c > swoole_client.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- swoole-src-2.1.3/tests/run-tests > run-tests.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- swoole-src-2.1.3/swoole_server.c > swoole_server.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- swoole-src-2.1.3/swoole_mysql.c > swoole_mysql.txt

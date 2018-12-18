@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Twidere-Android-3.7.0/twidere/src/main/kotlin/org/mariotaku/twidere/activity/ComposeActivity.kt > ComposeActivity.txt

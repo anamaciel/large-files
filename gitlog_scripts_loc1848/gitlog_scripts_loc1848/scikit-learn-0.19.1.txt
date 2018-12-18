@@ -1,0 +1,4 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scikit-learn-0.19.1/sklearn/src/cblas/atlas_reflvl2.h > atlas_reflvl2.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scikit-learn-0.19.1/doc/tutorial/machine_learning_map/pyparsing.py > pyparsing.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scikit-learn-0.19.1/sklearn/svm/src/liblinear/linear.cpp > linear.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scikit-learn-0.19.1/sklearn/svm/src/libsvm/svm.cpp > svm.txt

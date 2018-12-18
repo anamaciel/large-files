@@ -1,0 +1,8 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vscode-1.22.2/src/typings/node.d.ts > node.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vscode-1.22.2/src/vs/editor/test/browser/controller/cursor.test.ts > cursor.test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vscode-1.22.2/src/vs/workbench/services/search/test/node/fixtures/examples/employee.js > employee.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vscode-1.22.2/extensions/php-language-features/src/features/phpGlobals.ts > phpGlobals.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vscode-1.22.2/build/lib/typings/underscore.d.ts > underscore.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vscode-1.22.2/src/typings/electron.d.ts > electron.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vscode-1.22.2/src/vs/editor/common/model/textModel.ts > textModel.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vscode-1.22.2/src/vs/workbench/parts/tasks/electron-browser/task.contribution.ts > task.contribution.txt

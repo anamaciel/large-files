@@ -1,0 +1,11 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- three.js-r92/build/three.module.js > three.module.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- three.js-r92/build/three.js > three.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- three.js-r92/editor/js/libs/tern-threejs/threejs.js > threejs.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- three.js-r92/editor/js/libs/codemirror/codemirror.js > codemirror.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- three.js-r92/examples/js/loaders/FBXLoader.js > FBXLoader.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- three.js-r92/examples/js/loaders/ColladaLoader.js > ColladaLoader.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- three.js-r92/examples/js/libs/o3dgc.js > o3dgc.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- three.js-r92/editor/js/libs/esprima.js > esprima.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- three.js-r92/examples/models/skinned/knight.js > knight.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- three.js-r92/editor/js/libs/acorn/acorn.js > acorn.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- three.js-r92/examples/js/loaders/sea3d/SEA3DLoader.js > SEA3DLoader.txt

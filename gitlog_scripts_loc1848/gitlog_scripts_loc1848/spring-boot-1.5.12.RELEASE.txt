@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- spring-boot-1.5.12.RELEASE/spring-boot-samples/spring-boot-sample-atmosphere/src/main/resources/static/javascript/jquery-1.9.0.js > jquery-1.9.0.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- spring-boot-1.5.12.RELEASE/spring-boot-samples/spring-boot-sample-web-ui/src/main/resources/static/js/jquery-1.7.2.js > jquery-1.7.2.txt

@@ -1,0 +1,13 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vue-2.5.16/packages/vue-template-compiler/build.js > build.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vue-2.5.16/packages/vue-server-renderer/build.js > build.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vue-2.5.16/dist/vue.common.js > vue.common.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vue-2.5.16/packages/weex-vue-framework/factory.js > factory.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vue-2.5.16/dist/vue.esm.js > vue.esm.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vue-2.5.16/dist/vue.js > vue.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vue-2.5.16/dist/vue.runtime.esm.js > vue.runtime.esm.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vue-2.5.16/packages/vue-server-renderer/basic.js > basic.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vue-2.5.16/packages/weex-template-compiler/build.js > build.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vue-2.5.16/dist/vue.runtime.js > vue.runtime.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vue-2.5.16/dist/vue.runtime.common.js > vue.runtime.common.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vue-2.5.16/dist/vue.esm.browser.js > vue.esm.browser.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- vue-2.5.16/packages/vue-template-compiler/browser.js > browser.txt

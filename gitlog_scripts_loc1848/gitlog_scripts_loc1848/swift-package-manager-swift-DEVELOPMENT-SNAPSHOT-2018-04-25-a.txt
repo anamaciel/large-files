@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- swift-package-manager-swift-DEVELOPMENT-SNAPSHOT-2018-04-25-a/Tests/WorkspaceTests/WorkspaceTests.swift > WorkspaceTests.txt

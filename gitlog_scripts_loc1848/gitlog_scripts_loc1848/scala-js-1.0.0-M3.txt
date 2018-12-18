@@ -1,0 +1,5 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-js-1.0.0-M3/compiler/src/main/scala/org/scalajs/nscplugin/GenJSCode.scala > GenJSCode.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-js-1.0.0-M3/test-suite/js/src/test/scala/org/scalajs/testsuite/jsinterop/RuntimeLongTest.scala > RuntimeLongTest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-js-1.0.0-M3/linker/shared/src/main/scala/org/scalajs/linker/frontend/optimizer/OptimizerCore.scala > OptimizerCore.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-js-1.0.0-M3/test-suite/shared/src/test/scala/org/scalajs/testsuite/javalib/lang/CharacterTest.scala > CharacterTest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-js-1.0.0-M3/compiler/src/test/scala/org/scalajs/nscplugin/test/JSInteropTest.scala > JSInteropTest.txt

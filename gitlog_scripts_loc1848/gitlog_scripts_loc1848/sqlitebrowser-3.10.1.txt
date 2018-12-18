@@ -1,0 +1,9 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlitebrowser-3.10.1/libs/qscintilla/Qt4Qt5/qsciscintilla.cpp > qsciscintilla.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlitebrowser-3.10.1/libs/qscintilla/lexlib/CharacterCategory.cpp > CharacterCategory.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlitebrowser-3.10.1/libs/qcustomplot-source/qcustomplot.h > qcustomplot.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlitebrowser-3.10.1/src/MainWindow.cpp > MainWindow.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlitebrowser-3.10.1/libs/qscintilla/src/Editor.cpp > Editor.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlitebrowser-3.10.1/libs/qscintilla/src/Document.cpp > Document.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlitebrowser-3.10.1/libs/qcustomplot-source/qcustomplot.cpp > qcustomplot.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlitebrowser-3.10.1/src/grammar/Sqlite3Parser.cpp > Sqlite3Parser.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sqlitebrowser-3.10.1/libs/qscintilla/src/EditView.cpp > EditView.txt

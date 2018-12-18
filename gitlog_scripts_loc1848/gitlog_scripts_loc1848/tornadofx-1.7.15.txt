@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tornadofx-1.7.15/src/test/kotlin/tornadofx/tests/PropertiesTest.kt > PropertiesTest.txt

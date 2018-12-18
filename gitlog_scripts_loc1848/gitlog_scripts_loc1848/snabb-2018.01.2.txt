@@ -1,0 +1,11 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- snabb-2018.01.2/lib/luajit/src/lj_asm_arm.h > lj_asm_arm.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- snabb-2018.01.2/lib/luajit/src/lj_asm_x86.h > lj_asm_x86.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- snabb-2018.01.2/src/lib/pmu_cpu.lua > pmu_cpu.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- snabb-2018.01.2/lib/luajit/src/lj_parse.c > lj_parse.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- snabb-2018.01.2/lib/ljsyscall/test/test.lua > test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- snabb-2018.01.2/lib/luajit/src/lj_record.c > lj_record.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- snabb-2018.01.2/lib/luajit/src/lj_asm_mips.h > lj_asm_mips.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- snabb-2018.01.2/lib/ljsyscall/syscall/linux/constants.lua > constants.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- snabb-2018.01.2/lib/luajit/src/host/minilua.c > minilua.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- snabb-2018.01.2/lib/luajit/src/lj_asm.c > lj_asm.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- snabb-2018.01.2/lib/luajit/src/lj_opt_fold.c > lj_opt_fold.txt

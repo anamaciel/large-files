@@ -1,0 +1,6 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tikv-2.0.0/src/coprocessor/codec/mysql/decimal.rs > decimal.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tikv-2.0.0/src/raftstore/store/store.rs > store.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tikv-2.0.0/src/raftstore/store/snap.rs > snap.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tikv-2.0.0/tests/coprocessor/test_select.rs > test_select.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tikv-2.0.0/src/storage/mod.rs > mod.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tikv-2.0.0/src/raftstore/store/worker/apply.rs > apply.txt

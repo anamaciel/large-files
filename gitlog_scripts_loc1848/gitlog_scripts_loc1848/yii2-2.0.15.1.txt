@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- yii2-2.0.15.1/tests/framework/db/QueryBuilderTest.php > QueryBuilderTest.txt

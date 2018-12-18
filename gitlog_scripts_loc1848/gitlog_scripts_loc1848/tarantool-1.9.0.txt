@@ -1,0 +1,7 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tarantool-1.9.0/src/box/vy_run.c > vy_run.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tarantool-1.9.0/third_party/libev/ev.c > ev.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tarantool-1.9.0/src/box/lua/schema.lua > schema.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tarantool-1.9.0/src/uri.c > uri.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tarantool-1.9.0/src/lib/salad/bps_tree.h > bps_tree.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tarantool-1.9.0/src/box/alter.cc > alter.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- tarantool-1.9.0/src/box/vinyl.c > vinyl.txt
