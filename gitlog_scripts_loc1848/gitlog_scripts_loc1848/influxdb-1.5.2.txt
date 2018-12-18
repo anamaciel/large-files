@@ -1,0 +1,10 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- influxdb-1.5.2/tsdb/engine/tsm1/compact_test.go > compact_test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- influxdb-1.5.2/tests/server_test.go > server_test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- influxdb-1.5.2/tsdb/index.go > index.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- influxdb-1.5.2/services/storage/storage.pb.go > storage.pb.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- influxdb-1.5.2/tsdb/engine/tsm1/file_store_test.go > file_store_test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- influxdb-1.5.2/query/iterator.gen.go > iterator.gen.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- influxdb-1.5.2/query/select_test.go > select_test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- influxdb-1.5.2/models/points_test.go > points_test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- influxdb-1.5.2/tsdb/engine/tsm1/iterator.gen.go > iterator.gen.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- influxdb-1.5.2/tsdb/engine/tsm1/engine.go > engine.txt

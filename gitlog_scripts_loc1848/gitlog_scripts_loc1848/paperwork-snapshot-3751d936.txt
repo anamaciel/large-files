@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- paperwork-snapshot-3751d936/frontend/components/require-built.js > require-built.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- paperwork-snapshot-3751d936/frontend/app/js/mathquill.js > mathquill.txt

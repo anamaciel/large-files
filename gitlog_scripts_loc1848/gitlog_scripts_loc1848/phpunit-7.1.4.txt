@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- phpunit-7.1.4/tests/Framework/AssertTest.php > AssertTest.txt

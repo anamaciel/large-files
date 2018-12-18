@@ -1,0 +1,6 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Newtonsoft.Json-11.0.2/Src/Newtonsoft.Json/JsonTextReader.cs > JsonTextReader.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Newtonsoft.Json-11.0.2/Src/Newtonsoft.Json.Tests/Serialization/TypeNameHandlingTests.cs > TypeNameHandlingTests.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Newtonsoft.Json-11.0.2/Src/Newtonsoft.Json.Tests/Serialization/JsonSerializerCollectionsTests.cs > JsonSerializerCollectionsTests.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Newtonsoft.Json-11.0.2/Src/Newtonsoft.Json.Tests/Serialization/JsonSerializerTest.cs > JsonSerializerTest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Newtonsoft.Json-11.0.2/Src/Newtonsoft.Json.Tests/Converters/XmlNodeConverterTest.cs > XmlNodeConverterTest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Newtonsoft.Json-11.0.2/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs > JsonSerializerInternalReader.txt

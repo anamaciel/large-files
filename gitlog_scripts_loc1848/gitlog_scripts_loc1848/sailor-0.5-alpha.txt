@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- sailor-0.5-alpha/test/dev-app/pub/lua51js/lua5.1.5.min.js > lua5.1.5.min.txt

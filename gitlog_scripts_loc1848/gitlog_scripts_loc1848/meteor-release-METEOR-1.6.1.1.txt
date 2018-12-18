@@ -1,0 +1,14 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/packages/minimongo/minimongo_tests_client.js > minimongo_tests_client.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/tools/cli/commands-packages.js > commands-packages.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/packages/jquery/jquery.js > jquery.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/tools/isobuild/bundler.js > bundler.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/packages/deprecated/d3/d3.v3.js > d3.v3.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/packages/constraint-solver/gem-test-data.js > gem-test-data.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/packages/es5-shim/es5-shim-sham.js > es5-shim-sham.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/examples/other/template-demo/client/d3.v2.js > d3.v2.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/tools/tests/apps/modules/packages/modules-test-package/node_modules/acorn/dist/acorn.js > acorn.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/packages/mongo/mongo_livedata_tests.js > mongo_livedata_tests.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/packages/constraint-solver/stack-overflow-bug-test-data.js > stack-overflow-bug-test-data.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/packages/constraint-solver/slow-test-data.js > slow-test-data.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/tools/tests/apps/modules/packages/modules-test-package/node_modules/acorn/dist/acorn.es.js > acorn.es.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- meteor-release-METEOR-1.6.1.1/packages/deprecated/jquery-layout/jquery.layout.js > jquery.layout.txt

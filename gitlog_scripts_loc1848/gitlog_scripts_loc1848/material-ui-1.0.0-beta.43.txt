@@ -1,0 +1,5 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- material-ui-1.0.0-beta.43/flow-typed/npm/jsdom_vx.x.x.js > jsdom_vx.x.x.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- material-ui-1.0.0-beta.43/examples/create-react-app-with-flow/flow-typed/npm/material-ui_v1.x.x.js > material-ui_v1.x.x.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- material-ui-1.0.0-beta.43/flow-typed/npm/lodash_v4.x.x.js > lodash_v4.x.x.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- material-ui-1.0.0-beta.43/flow-typed/npm/eslint_vx.x.x.js > eslint_vx.x.x.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- material-ui-1.0.0-beta.43/flow-typed/npm/prismjs_vx.x.x.js > prismjs_vx.x.x.txt

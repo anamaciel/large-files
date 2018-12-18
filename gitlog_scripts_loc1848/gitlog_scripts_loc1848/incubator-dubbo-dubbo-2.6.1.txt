@@ -1,0 +1,3 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- incubator-dubbo-dubbo-2.6.1/hessian-lite/src/main/java/com/alibaba/com/caucho/hessian/io/Hessian2Input.java > Hessian2Input.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- incubator-dubbo-dubbo-2.6.1/dubbo-rpc/dubbo-rpc-thrift/src/test/java/com/alibaba/dubbo/rpc/gen/thrift/Demo.java > Demo.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- incubator-dubbo-dubbo-2.6.1/dubbo-rpc/dubbo-rpc-thrift/src/test/java/com/alibaba/dubbo/rpc/gen/dubbo/$__DemoStub.java > $__DemoStub.txt

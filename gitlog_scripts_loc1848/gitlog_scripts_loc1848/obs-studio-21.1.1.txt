@@ -1,0 +1,8 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- obs-studio-21.1.1/UI/window-basic-main.cpp > window-basic-main.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- obs-studio-21.1.1/deps/libcaption/examples/wonderland.h > wonderland.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- obs-studio-21.1.1/libobs/obs-source.c > obs-source.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- obs-studio-21.1.1/deps/glad/include/glad/glad.h > glad.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- obs-studio-21.1.1/libobs/graphics/graphics.c > graphics.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- obs-studio-21.1.1/deps/glad/src/glad.c > glad.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- obs-studio-21.1.1/plugins/obs-outputs/librtmp/rtmp.c > rtmp.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- obs-studio-21.1.1/UI/window-basic-settings.cpp > window-basic-settings.txt

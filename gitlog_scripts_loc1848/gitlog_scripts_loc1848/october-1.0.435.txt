@@ -1,0 +1,16 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/backend/formwidgets/codeeditor/assets/vendor/ace/worker-php.js > worker-php.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/system/assets/ui/vendor/moment/moment.js > moment.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/backend/formwidgets/codeeditor/assets/vendor/emmet/emmet.js > emmet.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/system/assets/ui/storm-min.js > storm-min.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/backend/formwidgets/codeeditor/assets/vendor/ace/ace.js > ace.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/system/assets/ui/vendor/select2/js/select2.full.js > select2.full.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/backend/formwidgets/codeeditor/assets/vendor/ace/worker-html.js > worker-html.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/backend/formwidgets/codeeditor/assets/vendor/ace/worker-css.js > worker-css.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/backend/formwidgets/codeeditor/assets/vendor/ace/worker-javascript.js > worker-javascript.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/backend/formwidgets/codeeditor/assets/vendor/ace/mode-twig.js > mode-twig.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/backend/formwidgets/codeeditor/assets/js/build-min.js > build-min.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/system/assets/ui/vendor/flot/jquery.flot.js > jquery.flot.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/system/assets/ui/vendor/raphael/raphael.js > raphael.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/backend/formwidgets/codeeditor/assets/vendor/ace/mode-html.js > mode-html.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/backend/formwidgets/codeeditor/assets/vendor/ace/mode-php.js > mode-php.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- october-1.0.435/modules/backend/formwidgets/codeeditor/assets/vendor/ace/mode-markdown.js > mode-markdown.txt

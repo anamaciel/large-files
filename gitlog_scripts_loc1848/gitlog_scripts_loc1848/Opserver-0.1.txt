@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Opserver-0.1/Opserver/Content/js/Scripts.js > Scripts.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Opserver-0.1/Opserver.Core/Data/SQL/QueryPlans/ShowPlanXML.generated.cs > ShowPlanXML.generated.txt

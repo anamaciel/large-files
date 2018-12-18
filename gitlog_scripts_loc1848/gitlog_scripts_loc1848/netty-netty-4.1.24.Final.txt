@@ -1,0 +1,4 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- netty-netty-4.1.24.Final/buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java > AbstractByteBufTest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- netty-netty-4.1.24.Final/example/src/main/java/io/netty/example/worldclock/WorldClockProtocol.java > WorldClockProtocol.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- netty-netty-4.1.24.Final/codec/src/main/java/io/netty/handler/codec/compression/Bzip2DivSufSort.java > Bzip2DivSufSort.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- netty-netty-4.1.24.Final/handler/src/test/java/io/netty/handler/ssl/SSLEngineTest.java > SSLEngineTest.txt

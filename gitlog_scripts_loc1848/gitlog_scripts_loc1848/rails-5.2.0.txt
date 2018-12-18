@@ -1,0 +1,6 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- rails-5.2.0/actioncable/test/javascript/vendor/mock-socket.js > mock-socket.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- rails-5.2.0/actionview/test/template/date_helper_test.rb > date_helper_test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- rails-5.2.0/actionview/test/template/form_helper_test.rb > form_helper_test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- rails-5.2.0/actionpack/test/dispatch/routing_test.rb > routing_test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- rails-5.2.0/actionview/test/ujs/public/vendor/jquery-2.2.0.js > jquery-2.2.0.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- rails-5.2.0/activerecord/test/cases/associations/has_many_associations_test.rb > has_many_associations_test.txt

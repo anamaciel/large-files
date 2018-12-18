@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- LightTable-0.8.1/deploy/core/node_modules/codemirror/lib/codemirror.js > codemirror.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- LightTable-0.8.1/deploy/core/node_modules/clojurescript/cljsDeps.js > cljsDeps.txt

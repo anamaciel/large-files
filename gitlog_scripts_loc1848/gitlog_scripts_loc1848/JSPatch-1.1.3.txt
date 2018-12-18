@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- JSPatch-1.1.3/Demo/DribbbleDemo/dribbbleDemo/dribbble/tmpData.js > tmpData.txt

@@ -1,0 +1,5 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- netdata-1.10.0/src/sys_fs_cgroup.c > sys_fs_cgroup.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- netdata-1.10.0/src/apps_plugin.c > apps_plugin.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- netdata-1.10.0/src/statsd.c > statsd.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- netdata-1.10.0/web/dashboard.js > dashboard.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- netdata-1.10.0/src/freebsd_sysctl.c > freebsd_sysctl.txt

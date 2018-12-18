@@ -1,0 +1,7 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- react-16.3.2/scripts/bench/benchmarks/pe-no-components/benchmark.js > benchmark.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- react-16.3.2/scripts/bench/benchmarks/pe-functional-components/benchmark.js > benchmark.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- react-16.3.2/packages/react-reconciler/src/__tests__/ReactIncremental-test.internal.js > ReactIncremental-test.internal.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- react-16.3.2/scripts/bench/benchmarks/pe-class-components/benchmark.js > benchmark.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- react-16.3.2/packages/react-dom/src/__tests__/ReactErrorBoundaries-test.internal.js > ReactErrorBoundaries-test.internal.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- react-16.3.2/packages/react-dom/src/__tests__/ReactDOMComponent-test.js > ReactDOMComponent-test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- react-16.3.2/fixtures/attribute-behavior/src/attributes.js > attributes.txt

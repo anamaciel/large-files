@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- rubocop-0.55.0/spec/rubocop/cop/style/conditional_assignment_assign_to_condition_spec.rb > conditional_assignment_assign_to_condition_spec.txt

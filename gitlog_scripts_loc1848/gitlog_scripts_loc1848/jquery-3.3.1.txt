@@ -1,0 +1,9 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- jquery-3.3.1/test/unit/ajax.js > ajax.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- jquery-3.3.1/test/unit/manipulation.js > manipulation.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- jquery-3.3.1/external/sinon/sinon.js > sinon.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- jquery-3.3.1/test/data/jquery-1.9.1.js > jquery-1.9.1.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- jquery-3.3.1/test/unit/effects.js > effects.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- jquery-3.3.1/dist/jquery.js > jquery.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- jquery-3.3.1/test/unit/event.js > event.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- jquery-3.3.1/external/qunit/qunit.js > qunit.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- jquery-3.3.1/dist/jquery.slim.js > jquery.slim.txt

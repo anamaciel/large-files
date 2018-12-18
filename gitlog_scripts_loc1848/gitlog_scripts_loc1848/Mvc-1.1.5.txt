@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Mvc-1.1.5/test/Microsoft.AspNetCore.Mvc.IntegrationTests/MutableObjectModelBinderIntegrationTest.cs > MutableObjectModelBinderIntegrationTest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Mvc-1.1.5/test/Microsoft.AspNetCore.Mvc.Core.Test/Internal/ControllerActionInvokerTest.cs > ControllerActionInvokerTest.txt

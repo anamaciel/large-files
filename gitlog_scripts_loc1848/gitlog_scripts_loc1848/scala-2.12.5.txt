@@ -1,0 +1,8 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-2.12.5/test/files/run/t7556/mega-class_1.scala > mega-class_1.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-2.12.5/src/compiler/scala/tools/nsc/typechecker/Typers.scala > Typers.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-2.12.5/test/files/scalap/t8679.scala > t8679.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-2.12.5/test/files/jvm/t6172.scala > t6172.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-2.12.5/src/compiler/scala/tools/nsc/ast/parser/Parsers.scala > Parsers.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-2.12.5/src/reflect/scala/reflect/internal/Types.scala > Types.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-2.12.5/src/reflect/scala/reflect/internal/Symbols.scala > Symbols.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- scala-2.12.5/test/files/run/bridges.scala > bridges.txt

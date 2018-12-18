@@ -1,0 +1,12 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- matomo-3.5.0-b2/libs/MaxMindGeoIP/geoipregionvars.php > geoipregionvars.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- matomo-3.5.0-b2/libs/bower_components/materialize/dist/js/materialize.js > materialize.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- matomo-3.5.0-b2/libs/bower_components/jquery-ui/ui/jquery-ui.js > jquery-ui.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- matomo-3.5.0-b2/libs/jqplot/jqplot.core.js > jqplot.core.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- matomo-3.5.0-b2/libs/bower_components/jquery/dist/jquery.js > jquery.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- matomo-3.5.0-b2/libs/bower_components/angular/angular.js > angular.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- matomo-3.5.0-b2/libs/bower_components/jquery/dist/jquery.slim.js > jquery.slim.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- matomo-3.5.0-b2/libs/Zend/Validate/Hostname/Cn.php > Cn.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- matomo-3.5.0-b2/libs/Zend/Validate/Hostname/Biz.php > Biz.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- matomo-3.5.0-b2/libs/bower_components/angular-animate/angular-animate.js > angular-animate.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- matomo-3.5.0-b2/libs/bower_components/jquery-ui/ui/jquery-ui.custom.js > jquery-ui.custom.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- matomo-3.5.0-b2/js/piwik.js > piwik.txt

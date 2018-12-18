@@ -1,0 +1,12 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- metasploit-framework-4.16.52/external/source/exploits/cve-2015-1701/cve-2015-1701/cve-2015-1701.h > cve-2015-1701.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- metasploit-framework-4.16.52/lib/rex/mac_oui.rb > mac_oui.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- metasploit-framework-4.16.52/external/source/exploits/CVE-2015-2426/dll/src/FontData.cpp > FontData.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- metasploit-framework-4.16.52/lib/msf/core/post/windows/error.rb > error.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- metasploit-framework-4.16.52/external/source/pxesploit/regeditor/ntreg.c > ntreg.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- metasploit-framework-4.16.52/lib/msf/core/post/hardware/automotive/dtc.rb > dtc.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- metasploit-framework-4.16.52/spec/modules/payloads_spec.rb > payloads_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- metasploit-framework-4.16.52/lib/rex/proto/iax2/codecs/g711.rb > g711.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- metasploit-framework-4.16.52/lib/rex/post/meterpreter/extensions/stdapi/railgun/def/windows/def_kernel32.rb > def_kernel32.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- metasploit-framework-4.16.52/lib/rex/post/meterpreter/extensions/stdapi/railgun/def/windows/api_constants.rb > api_constants.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- metasploit-framework-4.16.52/external/source/vncdll/winvnc/vncDesktop.cpp > vncDesktop.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- metasploit-framework-4.16.52/lib/rex/post/meterpreter/extensions/stdapi/railgun/def/windows/def_user32.rb > def_user32.txt

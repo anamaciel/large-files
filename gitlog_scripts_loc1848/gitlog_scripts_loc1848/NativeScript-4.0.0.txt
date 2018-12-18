@@ -1,0 +1,10 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- NativeScript-4.0.0/tns-platform-declarations/ios/objc-i386/objc!AudioToolbox.d.ts > objc!AudioToolbox.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- NativeScript-4.0.0/tns-platform-declarations/android/android17.d.ts > android17.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- NativeScript-4.0.0/tns-platform-declarations/ios/objc-i386/objc!Darwin.d.ts > objc!Darwin.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- NativeScript-4.0.0/tns-platform-declarations/ios/objc-i386/objc!UIKit.d.ts > objc!UIKit.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- NativeScript-4.0.0/tns-platform-declarations/ios/objc-i386/objc!Accelerate.d.ts > objc!Accelerate.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- NativeScript-4.0.0/tns-platform-declarations/ios/objc-i386/objc!AVFoundation.d.ts > objc!AVFoundation.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- NativeScript-4.0.0/tns-platform-declarations/ios/objc-i386/objc!Foundation.d.ts > objc!Foundation.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- NativeScript-4.0.0/tns-platform-declarations/ios/objc-i386/objc!Intents.d.ts > objc!Intents.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- NativeScript-4.0.0/tns-platform-declarations/ios/objc-i386/objc!SceneKit.d.ts > objc!SceneKit.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- NativeScript-4.0.0/tns-platform-declarations/ios/objc-i386/objc!CoreText.d.ts > objc!CoreText.d.txt

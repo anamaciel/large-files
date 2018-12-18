@@ -1,0 +1,4 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- jieba-0.39/jieba/finalseg/prob_emit.py > prob_emit.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- jieba-0.39/jieba/posseg/prob_trans.py > prob_trans.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- jieba-0.39/jieba/posseg/char_state_tab.py > char_state_tab.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- jieba-0.39/jieba/posseg/prob_emit.py > prob_emit.txt

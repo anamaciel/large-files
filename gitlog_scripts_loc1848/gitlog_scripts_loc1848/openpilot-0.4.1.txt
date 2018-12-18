@@ -1,0 +1,8 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- openpilot-0.4.1/panda/board/inc/stm32f205xx.h > stm32f205xx.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- openpilot-0.4.1/selfdrive/controls/lib/longitudinal_mpc/mpc_export/acado_solver.c > acado_solver.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- openpilot-0.4.1/phonelibs/nanovg/stb_image.h > stb_image.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- openpilot-0.4.1/selfdrive/controls/lib/lateral_mpc/mpc_export/acado_solver.c > acado_solver.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- openpilot-0.4.1/phonelibs/qpoases/SRC/QProblem.cpp > QProblem.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- openpilot-0.4.1/panda/board/inc/stm32f413xx.h > stm32f413xx.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- openpilot-0.4.1/phonelibs/nanovg/stb_truetype.h > stb_truetype.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- openpilot-0.4.1/phonelibs/nanovg/nanovg.c > nanovg.txt

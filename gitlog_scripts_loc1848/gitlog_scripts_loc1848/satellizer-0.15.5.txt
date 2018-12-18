@@ -1,0 +1,6 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- satellizer-0.15.5/examples/server/php/public/vendor/angular.js > angular.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- satellizer-0.15.5/examples/server/php/public/vendor/angular-animate.js > angular-animate.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- satellizer-0.15.5/examples/ionic/www/lib/ionic/js/angular/angular.js > angular.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- satellizer-0.15.5/examples/ionic/www/lib/ionic/js/ionic.js > ionic.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- satellizer-0.15.5/examples/ionic/www/lib/ionic/js/ionic.bundle.js > ionic.bundle.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- satellizer-0.15.5/examples/ionic/www/lib/ionic/js/ionic-angular.js > ionic-angular.txt

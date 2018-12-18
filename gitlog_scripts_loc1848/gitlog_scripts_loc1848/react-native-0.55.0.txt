@@ -1,0 +1,5 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- react-native-0.55.0/Libraries/Renderer/ReactFabric-dev.js > ReactFabric-dev.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- react-native-0.55.0/Libraries/Renderer/ReactNativeRenderer-dev.js > ReactNativeRenderer-dev.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- react-native-0.55.0/Libraries/Renderer/ReactFabric-prod.js > ReactFabric-prod.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- react-native-0.55.0/ReactCommon/yoga/yoga/Yoga.cpp > Yoga.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- react-native-0.55.0/Libraries/Renderer/ReactNativeRenderer-prod.js > ReactNativeRenderer-prod.txt

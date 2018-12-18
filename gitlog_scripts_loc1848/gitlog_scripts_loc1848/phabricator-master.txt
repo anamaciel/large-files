@@ -1,0 +1,6 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- phabricator-master/src/__phutil_library_map__.php > __phutil_library_map__.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- phabricator-master/resources/celerity/map.php > map.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- phabricator-master/externals/phpqrcode/phpqrcode.php > phpqrcode.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- phabricator-master/src/applications/repository/storage/PhabricatorRepository.php > PhabricatorRepository.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- phabricator-master/src/applications/transactions/editor/PhabricatorApplicationTransactionEditor.php > PhabricatorApplicationTransactionEditor.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- phabricator-master/src/infrastructure/query/policy/PhabricatorCursorPagedPolicyAwareQuery.php > PhabricatorCursorPagedPolicyAwareQuery.txt

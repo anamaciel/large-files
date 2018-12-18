@@ -1,0 +1,3 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- incanter-1.9.2/modules/incanter-core/src/incanter/core.clj > core.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- incanter-1.9.2/modules/incanter-charts/src/incanter/charts.clj > charts.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- incanter-1.9.2/modules/incanter-core/src/incanter/stats.clj > stats.txt

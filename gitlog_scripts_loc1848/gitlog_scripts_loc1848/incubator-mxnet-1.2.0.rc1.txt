@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- incubator-mxnet-1.2.0.rc1/scala-package/native/src/main/native/org_apache_mxnet_native_c_api.cc > org_apache_mxnet_native_c_api.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- incubator-mxnet-1.2.0.rc1/tests/python/unittest/test_operator.py > test_operator.txt

@@ -1,0 +1,3 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- marathon-1.5.8/src/main/java/mesosphere/marathon/Protos.java > Protos.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- marathon-1.5.8/docs/api-console/scripts/api-console-vendor.js > api-console-vendor.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- marathon-1.5.8/docs/api-console/scripts/api-console.js > api-console.txt

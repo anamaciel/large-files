@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- linkerd-1.4.0-rc1/admin/src/main/resources/io/buoyant/admin/js/spec/fixtures/metrics.js > metrics.txt

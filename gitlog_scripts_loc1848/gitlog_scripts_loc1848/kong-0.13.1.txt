@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- kong-0.13.1/spec/03-plugins/26-oauth2/03-access_spec.lua > 03-access_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- kong-0.13.1/spec-old-api/03-plugins/26-oauth2/03-access_spec.lua > 03-access_spec.txt
