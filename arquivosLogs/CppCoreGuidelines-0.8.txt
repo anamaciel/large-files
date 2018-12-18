@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CppCoreGuidelines-0.8/scripts/python/cpplint.py > cpplint.txt

@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CodeIgniter-3.1.8/user_guide/_static/jquery-3.1.0.js > jquery-3.1.0.txt

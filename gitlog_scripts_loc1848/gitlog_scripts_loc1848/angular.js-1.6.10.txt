@@ -1,0 +1,16 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/test/ngMock/angular-mocksSpec.js > angular-mocksSpec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/i18n/closure/datetimeSymbolsExt.js > datetimeSymbolsExt.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/test/ng/directive/inputSpec.js > inputSpec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/test/ng/locationSpec.js > locationSpec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/test/ngAnimate/animateCssSpec.js > animateCssSpec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/i18n/closure/datetimeSymbols.js > datetimeSymbols.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/i18n/closure/numberSymbolsExt.js > numberSymbolsExt.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/test/ngAnimate/animateSpec.js > animateSpec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/i18n/closure/numberSymbols.js > numberSymbols.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/test/ng/directive/ngOptionsSpec.js > ngOptionsSpec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/test/ng/directive/selectSpec.js > selectSpec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/test/ng/httpSpec.js > httpSpec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/test/ng/parseSpec.js > parseSpec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/test/ng/compileSpec.js > compileSpec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/test/jqLiteSpec.js > jqLiteSpec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular.js-1.6.10/test/ng/rootScopeSpec.js > rootScopeSpec.txt

@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Arduino-1.8.5/libraries/WiFi/extras/wifi_dnld/src/wl_fw.h > wl_fw.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Arduino-1.8.5/app/src/processing/app/Editor.java > Editor.txt

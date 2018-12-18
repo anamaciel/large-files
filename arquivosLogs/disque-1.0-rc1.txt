@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- disque-1.0-rc1/deps/jemalloc/src/arena.c > arena.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- disque-1.0-rc1/deps/jemalloc/src/jemalloc.c > jemalloc.txt

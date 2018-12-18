@@ -1,0 +1,3 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ansible-2.5.1/lib/ansible/module_utils/network/cnos/cnos.py > cnos.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ansible-2.5.1/lib/ansible/modules/network/cloudengine/ce_bgp_af.py > ce_bgp_af.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ansible-2.5.1/lib/ansible/module_utils/basic.py > basic.txt

@@ -1,0 +1,3 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Chart.js-2.7.2/dist/Chart.bundle.js > Chart.bundle.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Chart.js-2.7.2/dist/Chart.js > Chart.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Chart.js-2.7.2/test/specs/element.line.tests.js > element.line.tests.txt

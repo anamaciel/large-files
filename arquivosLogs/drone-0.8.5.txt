@@ -1,0 +1,14 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/golang.org/x/net/html/entity.go > entity.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/golang.org/x/sys/unix/zerrors_linux_mips64.go > zerrors_linux_mips64.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64le.go > zerrors_linux_ppc64le.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/github.com/mattn/go-sqlite3/sqlite3-binding.c > sqlite3-binding.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/github.com/lucas-clemente/quic-go-certificates/cert_set_2.go > cert_set_2.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/golang.org/x/text/unicode/norm/tables.go > tables.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/golang.org/x/sys/windows/zsyscall_windows.go > zsyscall_windows.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/golang.org/x/sys/unix/zerrors_linux_mips64le.go > zerrors_linux_mips64le.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/github.com/aws/aws-sdk-go/aws/endpoints/defaults.go > defaults.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/golang.org/x/sys/unix/zerrors_linux_ppc64.go > zerrors_linux_ppc64.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/golang.org/x/net/idna/tables.go > tables.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/golang.org/x/net/http2/server.go > server.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/github.com/lucas-clemente/quic-go-certificates/cert_set_3.go > cert_set_3.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- drone-0.8.5/vendor/golang.org/x/sys/unix/zerrors_linux_arm64.go > zerrors_linux_arm64.txt

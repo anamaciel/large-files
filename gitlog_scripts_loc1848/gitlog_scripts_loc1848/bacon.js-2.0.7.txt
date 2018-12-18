@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- bacon.js-2.0.7/dist/Bacon.noAssert.js > Bacon.noAssert.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- bacon.js-2.0.7/dist/Bacon.js > Bacon.txt

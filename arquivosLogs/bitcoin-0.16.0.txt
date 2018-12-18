@@ -1,0 +1,6 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- bitcoin-0.16.0/src/secp256k1/src/tests.c > tests.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- bitcoin-0.16.0/src/net.cpp > net.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- bitcoin-0.16.0/src/wallet/wallet.cpp > wallet.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- bitcoin-0.16.0/src/validation.cpp > validation.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- bitcoin-0.16.0/src/net_processing.cpp > net_processing.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- bitcoin-0.16.0/src/wallet/rpcwallet.cpp > rpcwallet.txt

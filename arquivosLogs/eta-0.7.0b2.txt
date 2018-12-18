@@ -1,0 +1,3 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- eta-0.7.0b2/eta/InteractiveUI.hs > InteractiveUI.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- eta-0.7.0b2/compiler/ETA/Main/DynFlags.hs > DynFlags.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- eta-0.7.0b2/compiler/ETA/Prelude/PrimOp.hs > PrimOp.txt

@@ -1,0 +1,6 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- esprima-4.0.0/test/3rdparty/mootools-1.4.5.js > mootools-1.4.5.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- esprima-4.0.0/src/parser.ts > parser.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- esprima-4.0.0/test/3rdparty/yui-3.12.0.js > yui-3.12.0.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- esprima-4.0.0/test/3rdparty/jquery.mobile-1.4.2.js > jquery.mobile-1.4.2.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- esprima-4.0.0/test/3rdparty/angular-1.2.5.js > angular-1.2.5.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- esprima-4.0.0/test/3rdparty/jquery-1.9.1.js > jquery-1.9.1.txt

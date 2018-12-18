@@ -1,0 +1,14 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Lua/languages/brazilian_portuguese.lua > brazilian_portuguese.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Lua/languages/danish.lua > danish.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Lua/languages/polish.lua > polish.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Lua/languages/korean.lua > korean.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Lua/languages/original_strings.lua > original_strings.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Lua/languages/dutch.lua > dutch.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Lua/languages/czech.lua > czech.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Lua/languages/finnish.lua > finnish.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Src/cp936_table.h > cp936_table.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Lua/languages/traditional_chinese.lua > traditional_chinese.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Lua/languages/norwegian.lua > norwegian.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Lua/languages/russian.lua > russian.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Lua/world.lua > world.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CorsixTH-0.61/CorsixTH/Lua/languages/simplified_chinese.lua > simplified_chinese.txt

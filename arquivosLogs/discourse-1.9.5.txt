@@ -1,0 +1,12 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- discourse-1.9.5/spec/components/guardian_spec.rb > guardian_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- discourse-1.9.5/vendor/assets/javascripts/lodash.js > lodash.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- discourse-1.9.5/vendor/assets/javascripts/select2.js > select2.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- discourse-1.9.5/vendor/assets/javascripts/markdown-it.js > markdown-it.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- discourse-1.9.5/vendor/assets/javascripts/handlebars.js > handlebars.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- discourse-1.9.5/spec/controllers/users_controller_spec.rb > users_controller_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- discourse-1.9.5/script/import_scripts/socialcast/test/test_data.rb > test_data.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- discourse-1.9.5/vendor/assets/javascripts/babel.js > babel.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- discourse-1.9.5/vendor/assets/javascripts/sinon-1.7.1.js > sinon-1.7.1.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- discourse-1.9.5/vendor/assets/javascripts/qunit.js > qunit.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- discourse-1.9.5/vendor/assets/javascripts/jquery.js > jquery.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- discourse-1.9.5/lib/javascripts/moment.js > moment.txt

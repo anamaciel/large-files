@@ -1,0 +1,4 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ccv-stable/serve/ebb_request_parser.c > ebb_request_parser.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ccv-stable/lib/ccv_icf.c > ccv_icf.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ccv-stable/lib/3rdparty/sqlite3/sqlite3.c > sqlite3.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ccv-stable/lib/ccv_dpm.c > ccv_dpm.txt

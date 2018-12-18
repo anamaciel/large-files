@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- clojurescript-r1.10.238/src/main/clojure/cljs/closure.clj > closure.txt

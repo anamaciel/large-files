@@ -1,0 +1,5 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- folly-2018.04.23.00/folly/compression/Compression.cpp > Compression.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- folly-2018.04.23.00/folly/io/async/AsyncSocket.cpp > AsyncSocket.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- folly-2018.04.23.00/folly/FBString.h > FBString.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- folly-2018.04.23.00/folly/test/stl_tests/StlVectorTest.cpp > StlVectorTest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- folly-2018.04.23.00/folly/io/async/test/AsyncSocketTest2.cpp > AsyncSocketTest2.txt

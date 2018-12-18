@@ -1,0 +1,15 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-stream/src/main/java/akka/stream/StreamRefMessages.java > StreamRefMessages.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-remote/src/main/java/akka/remote/WireFormats.java > WireFormats.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-remote/src/main/java/akka/remote/SystemMessageFormats.java > SystemMessageFormats.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-cluster/src/main/java/akka/cluster/protobuf/msg/ClusterMessages.java > ClusterMessages.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-persistence/src/main/java/akka/persistence/serialization/MessageFormats.java > MessageFormats.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-distributed-data/src/main/java/akka/cluster/ddata/protobuf/msg/ReplicatedDataMessages.java > ReplicatedDataMessages.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-cluster-sharding/src/main/java/akka/cluster/sharding/protobuf/msg/ClusterShardingMessages.java > ClusterShardingMessages.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-distributed-data/src/main/java/akka/cluster/ddata/protobuf/msg/ReplicatorMessages.java > ReplicatorMessages.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-multi-node-testkit/src/main/java/akka/remote/testconductor/TestConductorProtocol.java > TestConductorProtocol.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-actor/src/main/java/akka/dispatch/forkjoin/ForkJoinPool.java > ForkJoinPool.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-cluster-tools/src/main/java/akka/cluster/pubsub/protobuf/msg/DistributedPubSubMessages.java > DistributedPubSubMessages.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-remote/src/main/java/akka/remote/ArteryControlFormats.java > ArteryControlFormats.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-cluster-metrics/src/main/java/akka/cluster/metrics/protobuf/msg/ClusterMetricsMessages.java > ClusterMetricsMessages.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-remote/src/main/java/akka/remote/ContainerFormats.java > ContainerFormats.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- akka-2.5.12/akka-protobuf/src/main/java/akka/protobuf/DescriptorProtos.java > DescriptorProtos.txt

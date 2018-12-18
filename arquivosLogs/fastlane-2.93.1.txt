@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- fastlane-2.93.1/fastlane/swift/Fastlane.swift > Fastlane.txt

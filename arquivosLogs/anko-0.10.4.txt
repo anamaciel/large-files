@@ -1,0 +1,3 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- anko-0.10.4/anko/library/generated/sdk23/src/Layouts.kt > Layouts.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- anko-0.10.4/anko/library/generated/sdk25/src/Layouts.kt > Layouts.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- anko-0.10.4/anko/library/generated/sdk21/src/Layouts.kt > Layouts.txt

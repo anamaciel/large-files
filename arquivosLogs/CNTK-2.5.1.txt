@@ -1,0 +1,13 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CNTK-2.5.1/Source/Math/CPUMatrixImpl.h > CPUMatrixImpl.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CNTK-2.5.1/bindings/python/cntk/contrib/crosstalkcaffe/adapter/bvlccaffe/caffe_pb2.py > caffe_pb2.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CNTK-2.5.1/Source/Math/Matrix.cpp > Matrix.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CNTK-2.5.1/Source/CNTKv2LibraryDll/proto/onnx/CNTKToONNX.cpp > CNTKToONNX.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CNTK-2.5.1/Source/CNTKv2LibraryDll/API/CNTKLibrary.h > CNTKLibrary.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CNTK-2.5.1/Source/Math/NoGPU.cpp > NoGPU.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CNTK-2.5.1/Source/CNTKv2LibraryDll/CompositeFunction.cpp > CompositeFunction.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CNTK-2.5.1/Source/Readers/Kaldi2Reader/msra_mgram.h > msra_mgram.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CNTK-2.5.1/Tests/UnitTests/MathTests/MatrixTests.cpp > MatrixTests.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CNTK-2.5.1/Source/SGDLib/SGD.cpp > SGD.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CNTK-2.5.1/Source/ComputationNetworkLib/TrainingNodes.h > TrainingNodes.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CNTK-2.5.1/Source/CNTKv2LibraryDll/proto/onnx/ONNXToCNTK.cpp > ONNXToCNTK.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- CNTK-2.5.1/Source/CNTKv2LibraryDll/Function.cpp > Function.txt

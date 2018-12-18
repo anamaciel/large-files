@@ -1,0 +1,3 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- cabal-cabal-install-v2.0.0.0/cabal-install/Distribution/Client/ProjectPlanning.hs > ProjectPlanning.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- cabal-cabal-install-v2.0.0.0/cabal-install/Distribution/Client/Init/Licenses.hs > Licenses.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- cabal-cabal-install-v2.0.0.0/cabal-install/Distribution/Client/Setup.hs > Setup.txt

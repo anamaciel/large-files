@@ -1,0 +1,3 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- apollo-client-graphql-anywhere-4.1.7/packages/apollo-client/src/core/__tests__/QueryManager/index.ts > index.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- apollo-client-graphql-anywhere-4.1.7/packages/apollo-client/src/__tests__/client.ts > client.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- apollo-client-graphql-anywhere-4.1.7/packages/apollo-client/src/__tests__/ApolloClient.ts > ApolloClient.txt

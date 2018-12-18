@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- fresco-1.9.0/docs/static/JSXTransformer.js > JSXTransformer.txt

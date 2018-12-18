@@ -1,0 +1,38 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.2.4.d.ts > babylon.2.4.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/customConfigurations/minimalGLTFViewer/babylon.max.js > babylon.max.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.3.0.d.ts > babylon.3.0.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.2.3.max.js > babylon.2.3.max.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/loaders/babylon.glTFFileLoader.js > babylon.glTFFileLoader.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.2.1.debug.js > babylon.2.1.debug.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.2.1.d.ts > babylon.2.1.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.2.2.d.ts > babylon.2.2.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.2.5.d.ts > babylon.2.5.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.1.14.d.ts > babylon.1.14.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/babylon.d.ts > babylon.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/loaders/babylon.glTF2FileLoader.js > babylon.glTF2FileLoader.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.3.0.max.js > babylon.3.0.max.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.1.14-debug.js > babylon.1.14-debug.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.2.3.d.ts > babylon.2.3.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/babylon.d.ts > babylon.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/materialsLibrary/babylon.customMaterial.js > babylon.customMaterial.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/gui/babylon.gui.js > babylon.gui.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/Oimo.js > Oimo.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/src/Mesh/babylon.mesh.ts > babylon.mesh.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.2.0.debug.js > babylon.2.0.debug.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/loaders/babylonjs.loaders.js > babylonjs.loaders.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/Viewer/dist/viewer.js > viewer.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.2.4.max.js > babylon.2.4.max.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/src/Math/babylon.math.ts > babylon.math.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/babylon.max.js > babylon.max.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/src/Mesh/babylon.mesh.vertexData.ts > babylon.mesh.vertexData.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.2.5.max.js > babylon.2.5.max.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/loaders/babylon.glTF1FileLoader.js > babylon.glTF1FileLoader.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/cannon.js > cannon.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/customConfigurations/minimalGLTFViewer/babylon.d.ts > babylon.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/customConfigurations/minimalGLTFViewer/babylon.module.d.ts > babylon.module.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/materialsLibrary/babylonjs.materials.js > babylonjs.materials.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/src/babylon.scene.ts > babylon.scene.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.2.0.d.ts > babylon.2.0.d.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/src/Engine/babylon.engine.ts > babylon.engine.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/preview release/inspector/babylon.inspector.js > babylon.inspector.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Babylon.js-3.1.0/dist/previous releases/babylon.2.2.max.js > babylon.2.2.max.txt

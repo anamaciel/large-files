@@ -1,0 +1,10 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular-5.2.10/packages/compiler/test/template_parser/template_parser_spec.ts > template_parser_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular-5.2.10/packages/upgrade/test/dynamic/upgrade_spec.ts > upgrade_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular-5.2.10/packages/core/test/animation/animation_integration_spec.ts > animation_integration_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular-5.2.10/packages/common/locales/closure-locale.ts > closure-locale.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular-5.2.10/packages/upgrade/test/static/integration/upgrade_component_spec.ts > upgrade_component_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular-5.2.10/packages/core/test/animation/animation_query_integration_spec.ts > animation_query_integration_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular-5.2.10/packages/router/test/integration.spec.ts > integration.spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular-5.2.10/packages/forms/test/reactive_integration_spec.ts > reactive_integration_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular-5.2.10/modules/playground/src/routing/app/data.ts > data.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- angular-5.2.10/packages/core/test/linker/integration_spec.ts > integration_spec.txt

@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ghcjs-master/test/ghc/programs/barton-mangler-bug/Expected.hs > Expected.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ghcjs-master/src/Compiler/InteractiveUI.hs > InteractiveUI.txt

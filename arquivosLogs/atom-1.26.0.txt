@@ -1,0 +1,6 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- atom-1.26.0/spec/workspace-spec.js > workspace-spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- atom-1.26.0/src/text-editor.js > text-editor.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- atom-1.26.0/spec/text-editor-component-spec.js > text-editor-component-spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- atom-1.26.0/src/text-editor-component.js > text-editor-component.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- atom-1.26.0/spec/helpers/words.js > words.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- atom-1.26.0/spec/text-editor-spec.js > text-editor-spec.txt
