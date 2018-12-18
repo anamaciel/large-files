@@ -1,0 +1,7 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ghc-ghc-8.4.2-release/compiler/nativeGen/X86/CodeGen.hs > CodeGen.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ghc-ghc-8.4.2-release/compiler/main/DynFlags.hs > DynFlags.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ghc-ghc-8.4.2-release/ghc/GHCi/UI.hs > UI.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ghc-ghc-8.4.2-release/libraries/base/cbits/WCsubst.c > WCsubst.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ghc-ghc-8.4.2-release/testsuite/tests/ghci/should_run/ghcirun004.hs > ghcirun004.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ghc-ghc-8.4.2-release/testsuite/tests/programs/barton-mangler-bug/Expected.hs > Expected.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- ghc-ghc-8.4.2-release/testsuite/tests/perf/compiler/parsing001.hs > parsing001.txt

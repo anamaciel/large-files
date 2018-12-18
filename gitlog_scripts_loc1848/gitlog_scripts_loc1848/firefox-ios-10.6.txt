@@ -1,0 +1,4 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- firefox-ios-10.6/FxA/FxA/include/openssl/ssl.h > ssl.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- firefox-ios-10.6/FxA/FxA/include/openssl/obj_mac.h > obj_mac.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- firefox-ios-10.6/ThirdParty/sqlcipher/sqlite3.c > sqlite3.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- firefox-ios-10.6/Client/Frontend/Browser/BrowserViewController.swift > BrowserViewController.txt

@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- choco-0.10.10/src/chocolatey.tests.integration/scenarios/InstallScenarios.cs > InstallScenarios.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- choco-0.10.10/src/chocolatey.tests.integration/scenarios/UpgradeScenarios.cs > UpgradeScenarios.txt

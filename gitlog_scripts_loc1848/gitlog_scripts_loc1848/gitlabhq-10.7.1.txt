@@ -1,0 +1,9 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- gitlabhq-10.7.1/spec/models/user_spec.rb > user_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- gitlabhq-10.7.1/spec/javascripts/monitoring/mock_data.js > mock_data.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- gitlabhq-10.7.1/vendor/assets/javascripts/pdf.js > pdf.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- gitlabhq-10.7.1/spec/models/ci/build_spec.rb > build_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- gitlabhq-10.7.1/db/schema.rb > schema.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- gitlabhq-10.7.1/spec/lib/gitlab/git/repository_spec.rb > repository_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- gitlabhq-10.7.1/spec/models/repository_spec.rb > repository_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- gitlabhq-10.7.1/spec/models/project_spec.rb > project_spec.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- gitlabhq-10.7.1/vendor/assets/javascripts/pdf.worker.js > pdf.worker.txt

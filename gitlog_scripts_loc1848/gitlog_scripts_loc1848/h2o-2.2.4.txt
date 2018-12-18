@@ -1,0 +1,13 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- h2o-2.2.4/deps/mruby/src/string.c > string.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- h2o-2.2.4/deps/mruby/src/class.c > class.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- h2o-2.2.4/lib/http2/hpack_huffman_table.h > hpack_huffman_table.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- h2o-2.2.4/deps/mruby/mrbgems/mruby-compiler/core/codegen.c > codegen.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- h2o-2.2.4/deps/mruby/src/vm.c > vm.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- h2o-2.2.4/deps/brotli/enc/dictionary.cc > dictionary.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- h2o-2.2.4/deps/brotli/enc/dictionary_hash.h > dictionary_hash.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- h2o-2.2.4/src/main.c > main.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- h2o-2.2.4/doc/search/oktavia-english-search.js > oktavia-english-search.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- h2o-2.2.4/deps/picotls/lib/picotls.c > picotls.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- h2o-2.2.4/deps/brotli/dec/decode.c > decode.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- h2o-2.2.4/deps/brotli/dec/dictionary.c > dictionary.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- h2o-2.2.4/deps/brotli/enc/static_dict_lut.h > static_dict_lut.txt

@@ -1,0 +1,5 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- caffe-1.0/src/gtest/gtest.h > gtest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- caffe-1.0/src/gtest/gtest-all.cpp > gtest-all.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- caffe-1.0/scripts/cpp_lint.py > cpp_lint.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- caffe-1.0/src/caffe/test/test_net.cpp > test_net.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- caffe-1.0/src/caffe/test/test_upgrade_proto.cpp > test_upgrade_proto.txt

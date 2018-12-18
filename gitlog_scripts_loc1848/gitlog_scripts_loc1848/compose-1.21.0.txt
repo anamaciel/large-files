@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- compose-1.21.0/tests/unit/config/config_test.py > config_test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- compose-1.21.0/tests/acceptance/cli_test.py > cli_test.txt

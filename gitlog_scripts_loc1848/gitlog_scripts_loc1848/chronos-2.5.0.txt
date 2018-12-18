@@ -1,0 +1,7 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- chronos-2.5.0/src/main/resources/assets/app/scripts/parsers/iso8601.js > iso8601.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- chronos-2.5.0/src/main/resources/assets/app/scripts/vendor/require-less/lessc.js > lessc.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- chronos-2.5.0/src/main/resources/assets/app/scripts/vendor/tests/mocha.js > mocha.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- chronos-2.5.0/src/main/resources/assets/app/scripts/vendor/select2.js > select2.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- chronos-2.5.0/src/main/resources/assets/r.js > r.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- chronos-2.5.0/src/main/resources/assets/app/scripts/vendor/d3.v3.js > d3.v3.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- chronos-2.5.0/src/main/resources/assets/app/scripts/vendor/dotgraph/dotparser.js > dotparser.txt

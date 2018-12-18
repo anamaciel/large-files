@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- docpad-6.80.0-beta/source/lib/docpad.coffee > docpad.txt

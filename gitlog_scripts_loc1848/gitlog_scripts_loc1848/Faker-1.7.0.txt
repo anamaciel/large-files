@@ -1,0 +1,9 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Faker-1.7.0/src/Faker/Provider/ru_RU/Text.php > Text.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Faker-1.7.0/src/Faker/Provider/nl_NL/Text.php > Text.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Faker-1.7.0/src/Faker/Provider/fr_FR/Text.php > Text.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Faker-1.7.0/src/Faker/Provider/uk_UA/Text.php > Text.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Faker-1.7.0/src/Faker/Provider/el_GR/Text.php > Text.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Faker-1.7.0/src/Faker/Provider/pl_PL/Text.php > Text.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Faker-1.7.0/src/Faker/Provider/cs_CZ/Text.php > Text.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Faker-1.7.0/src/Faker/Provider/hu_HU/Text.php > Text.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Faker-1.7.0/src/Faker/Provider/en_US/Text.php > Text.txt

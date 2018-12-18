@@ -1,0 +1,4 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Idris-dev-1.2.0/src/Idris/Elab/Term.hs > Term.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Idris-dev-1.2.0/src/Idris/AbsSyntaxTree.hs > AbsSyntaxTree.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Idris-dev-1.2.0/rts/mini-gmp.c > mini-gmp.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Idris-dev-1.2.0/src/Idris/AbsSyntax.hs > AbsSyntax.txt

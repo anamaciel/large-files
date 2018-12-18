@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- gitit-0.12.2.1/data/static/js/jquery-1.2.6.js > jquery-1.2.6.txt

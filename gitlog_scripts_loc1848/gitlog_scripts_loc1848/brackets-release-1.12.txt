@@ -1,0 +1,17 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/test/spec/JSUtils-test-files/jquery-1.7.js > jquery-1.7.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/src/extensions/default/JavaScriptQuickEdit/unittest-files/jquery-ui/tests/jquery-1.7.2.js > jquery-1.7.2.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/test/spec/CSSUtils-test.js > CSSUtils-test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/src/extensions/default/JavaScriptQuickEdit/unittest-files/jquery-ui/tests/jquery-1.6.js > jquery-1.6.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/src/extensions/default/JavaScriptQuickEdit/unittest-files/jquery-ui/external/jshint.js > jshint.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/test/perf/OpenFile-perf-files/jquery.mobile-1.1.0.js > jquery.mobile-1.1.0.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/src/extensions/default/JavaScriptQuickEdit/unittest-files/jquery-ui/tests/jquery-1.6.2.js > jquery-1.6.2.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/src/extensions/default/JavaScriptQuickEdit/unittest-files/jquery-ui/tests/jquery-1.6.4.js > jquery-1.6.4.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/src/thirdparty/immutable.js > immutable.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/test/perf/OpenFile-perf-files/brackets-concat.js > brackets-concat.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/src/extensions/default/JavaScriptQuickEdit/unittest-files/jquery-ui/tests/jquery-1.7.1.js > jquery-1.7.1.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/test/spec/HTMLInstrumentation-test.js > HTMLInstrumentation-test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/test/spec/EditorCommandHandlers-test.js > EditorCommandHandlers-test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/src/thirdparty/jquery-2.1.3.js > jquery-2.1.3.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/test/spec/ExtensionManager-test.js > ExtensionManager-test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/src/extensions/default/JavaScriptQuickEdit/unittest-files/jquery-ui/tests/jquery-1.6.1.js > jquery-1.6.1.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- brackets-release-1.12/src/extensions/default/JavaScriptQuickEdit/unittest-files/jquery-ui/tests/jquery-1.6.3.js > jquery-1.6.3.txt

@@ -1,0 +1,3 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- flatbuffers-1.9.0/src/idl_gen_cpp.cpp > idl_gen_cpp.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- flatbuffers-1.9.0/tests/monster_test_generated.h > monster_test_generated.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- flatbuffers-1.9.0/src/idl_parser.cpp > idl_parser.txt

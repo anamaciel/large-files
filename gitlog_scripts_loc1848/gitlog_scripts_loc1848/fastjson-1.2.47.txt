@@ -1,0 +1,7 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- fastjson-1.2.47/src/main/java/com/alibaba/fastjson/serializer/SerializeWriter.java > SerializeWriter.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- fastjson-1.2.47/src/main/java/com/alibaba/fastjson/JSONPath.java > JSONPath.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- fastjson-1.2.47/src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java > JSONLexerBase.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- fastjson-1.2.47/src/main/java/com/alibaba/fastjson/util/TypeUtils.java > TypeUtils.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- fastjson-1.2.47/src/test/java/com/alibaba/json/bvtVO/BigClass.java > BigClass.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- fastjson-1.2.47/src/test/java/com/alibaba/json/bvt/asm/Huge_300_ClassTest.java > Huge_300_ClassTest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- fastjson-1.2.47/src/main/java/com/alibaba/fastjson/parser/JSONScanner.java > JSONScanner.txt

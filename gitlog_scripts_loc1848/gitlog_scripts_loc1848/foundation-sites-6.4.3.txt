@@ -1,0 +1,4 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- foundation-sites-6.4.3/dist/js/foundation.js > foundation.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- foundation-sites-6.4.3/test/javascript/lib/sinon.js > sinon.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- foundation-sites-6.4.3/test/javascript/lib/chai.js > chai.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- foundation-sites-6.4.3/test/javascript/lib/mocha.js > mocha.txt

@@ -1,0 +1,13 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- guava-24.1/guava-tests/test/com/google/common/cache/LocalCacheTest.java > LocalCacheTest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- guava-24.1/android/guava/src/com/google/common/collect/Maps.java > Maps.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- guava-24.1/guava-gwt/test/com/google/common/util/concurrent/FuturesTest_gwt.java > FuturesTest_gwt.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- guava-24.1/guava-tests/benchmark/com/google/common/base/EnumsBenchmark.java > EnumsBenchmark.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- guava-24.1/guava-tests/test/com/google/common/util/concurrent/FuturesTest.java > FuturesTest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- guava-24.1/guava/src/com/google/common/cache/LocalCache.java > LocalCache.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- guava-24.1/guava-tests/test/com/google/common/cache/CacheLoadingTest.java > CacheLoadingTest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- guava-24.1/guava-tests/benchmark/com/google/common/base/CharMatcherBenchmark.java > CharMatcherBenchmark.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- guava-24.1/guava/src/com/google/common/collect/MapMakerInternalMap.java > MapMakerInternalMap.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- guava-24.1/guava-gwt/test/com/google/common/collect/TableCollectionTest_gwt.java > TableCollectionTest_gwt.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- guava-24.1/android/guava-tests/test/com/google/common/cache/LocalCacheTest.java > LocalCacheTest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- guava-24.1/android/guava/src/com/google/common/cache/LocalCache.java > LocalCache.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- guava-24.1/guava/src/com/google/common/collect/Maps.java > Maps.txt

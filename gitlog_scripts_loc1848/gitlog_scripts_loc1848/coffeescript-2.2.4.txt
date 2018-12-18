@@ -1,0 +1,3 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- coffeescript-2.2.4/lib/coffeescript/grammar.js > grammar.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- coffeescript-2.2.4/src/nodes.coffee > nodes.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- coffeescript-2.2.4/lib/coffeescript/nodes.js > nodes.txt

@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- glium-0.13.5/book/tuto-07-teapot.rs > tuto-07-teapot.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- glium-0.13.5/src/vertex/format.rs > format.txt

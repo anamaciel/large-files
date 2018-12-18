@@ -1,0 +1,1 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- hugo-0.40/docs/themes/gohugoioTheme/static/dist/app.bundle.js > app.bundle.txt

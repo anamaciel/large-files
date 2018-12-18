@@ -1,0 +1,3 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- cayley-0.7.3/quad/nquads/raw.go > raw.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- cayley-0.7.3/quad/nquads/typed.go > typed.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- cayley-0.7.3/quad/pquads/quads.pb.go > quads.pb.txt

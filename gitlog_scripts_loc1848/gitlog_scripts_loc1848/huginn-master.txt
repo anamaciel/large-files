@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- huginn-master/vendor/assets/javascripts/d3.js > d3.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- huginn-master/vendor/assets/javascripts/rickshaw.js > rickshaw.txt

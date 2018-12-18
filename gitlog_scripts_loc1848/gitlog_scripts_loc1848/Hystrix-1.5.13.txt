@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Hystrix-1.5.13/hystrix-core/src/test/java/com/netflix/hystrix/HystrixObservableCommandTest.java > HystrixObservableCommandTest.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- Hystrix-1.5.13/hystrix-core/src/test/java/com/netflix/hystrix/HystrixCommandTest.java > HystrixCommandTest.txt

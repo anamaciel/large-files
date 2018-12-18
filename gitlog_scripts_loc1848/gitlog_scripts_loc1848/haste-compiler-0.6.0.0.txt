@@ -1,0 +1,2 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- haste-compiler-0.6.0.0/lib/unicode.js > unicode.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- haste-compiler-0.6.0.0/libraries/ghc-7.10/ghc-prim/GHC/Prim.hs > Prim.txt

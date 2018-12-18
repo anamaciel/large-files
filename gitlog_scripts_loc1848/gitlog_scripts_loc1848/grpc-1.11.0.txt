@@ -1,0 +1,6 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- grpc-1.11.0/src/csharp/Grpc.IntegrationTesting/Control.cs > Control.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- grpc-1.11.0/src/boringssl/crypto_test_data.cc > crypto_test_data.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- grpc-1.11.0/src/core/ext/transport/chttp2/transport/chttp2_transport.cc > chttp2_transport.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- grpc-1.11.0/test/core/avl/avl_test.cc > avl_test.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- grpc-1.11.0/src/core/ext/filters/client_channel/client_channel.cc > client_channel.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- grpc-1.11.0/tools/doxygen/Doxyfile.c++ > Doxyfile.c++.txt

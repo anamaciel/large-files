@@ -1,0 +1,7 @@
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- elasticsearch-6.2.4/server/src/test/java/org/elasticsearch/index/translog/TranslogTests.java > TranslogTests.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- elasticsearch-6.2.4/server/src/test/java/org/elasticsearch/snapshots/SharedClusterSnapshotRestoreIT.java > SharedClusterSnapshotRestoreIT.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- elasticsearch-6.2.4/modules/lang-painless/src/main/java/org/elasticsearch/painless/antlr/PainlessParser.java > PainlessParser.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- elasticsearch-6.2.4/server/src/test/java/org/elasticsearch/index/engine/InternalEngineTests.java > InternalEngineTests.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- elasticsearch-6.2.4/server/src/test/java/org/elasticsearch/index/shard/IndexShardTests.java > IndexShardTests.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- elasticsearch-6.2.4/server/src/test/java/org/elasticsearch/search/fetch/subphase/highlight/HighlighterSearchIT.java > HighlighterSearchIT.txt
+git log --pretty=oneline --pretty=format:%H,%an,%ae,%cn,%ce,%cd,%x22%s%x22 --shortstat -- elasticsearch-6.2.4/test/framework/src/main/java/org/elasticsearch/transport/AbstractSimpleTransportTestCase.java > AbstractSimpleTransportTestCase.txt
